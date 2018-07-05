@@ -9,7 +9,8 @@ class Owner
     end
   
     def countdown
-    
+    Rails.logger.debug 'Status of name' + name
+
     today=Date.today
     birthday=Date.new(today.year,birthdate.month,birthdate.day)
     
