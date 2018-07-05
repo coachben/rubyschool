@@ -1,4 +1,4 @@
-Ruby School APP
+==Ruby School APP
 
 ==
 
@@ -22,7 +22,9 @@ Things you may want to cover:
 
 * Simple forms
 
-* ...
+ def welcomecomment
+     puts "Most Welcome"
+ end
 
 
 Please feel free to use a different markup language if you do not plan to run
