@@ -1,9 +1,16 @@
 class VisitorsController < ApplicationController
   
   def new
-    Rails.logger.debug 'Entering new method'
     @owner=Owner.new
-    Rails.logger.debug 'DEBUG: Owner name is ' + @owner.name
+    
+    #debug MVC flows and raise errors
+    #Rails.logger.debug 'DEBUG: Owner name is ' + @owner.name
+    #raise "DISASTER haha"
+    
+    flash.now[:notice]="Welcome"
+    #flash[:alert]="Ruby School is Launching"
+    #flash[:warning]="Ruby School is Launching"
+  
   end
   
   def update

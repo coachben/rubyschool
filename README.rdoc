@@ -6,9 +6,9 @@ My Ruby School App is Live
 
 Things you may want to cover:
 
-* Ruby Snippets
+* Ruby Snippets *
 
-* DRY 
+** DRY **
 
 * SASS Beautification
 
@@ -18,9 +18,9 @@ Things you may want to cover:
 
 * RESTful Services
 
-* Safaricom APIs
+- Safaricom APIs
 
-* Simple forms
+- Simple forms
 
  def welcomecomment
      puts "Most Welcome"
